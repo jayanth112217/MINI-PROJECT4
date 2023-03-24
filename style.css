@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Akaya Kanadaka');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+#logo{
+    display: flex;
+    color:purple;
+    align-items:center;
+    margin: 0 14px;
+    font-size:28px;
+    margin-right: 40px;
+}
+#logo img{
+    height:47px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: red;
+    padding:13px 14px;
+    font-family: 'Akaya Kanadaka';
+}
+#navbar ul{
+    display:flex;
+    flex-direction:row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style:none;
+}
+#navbar li a:hover{
+    color:black;
+    cursor:pointer;
+}
+#navbar li a{
+    color:black;
+    font-size:30px;
+    text-decoration: none;
+    padding:13px 30px;
+}
+#introsection div.small{
+  font-size: 52px;
+}
+#introsection{
+    padding-bottom:40px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:65px;
+    font-family: 'Akaya Kanadaka';
+    background:url("/static/bg.jpg");
+    height:425px;
+    background-color: red;
+}
+#sponsersection{
+    height:300px;
+    background-color: #fbd6d6c7;
+    font-size:23px;
+}
+#sponsersection h3{
+    text-align:center;
+    padding-top:12px;
+}
+#missionsection{
+    height:326px;
+    width:67%;
+    margin:auto;
+}
+#missionsection h2{
+    font-size: 36px;
+    font-family:'Akaya Kanadaka';
+    text-align:center;
+    padding-top:12px;
+}
+.card{
+    font-family:'Akaya Kanadaka';
+    display: inline-block;
+    border:2px solid black;
+    border-radius:10px;
+    width:30%;
+    margin:23px 10px;
+    height:209px;
+    background-color: rgb(195, 177, 177);
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top:15px;
+    font-family:'Akaya Kanadaka';
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img{
+    height:131px;
+    padding:0 14px;
+    margin:5px 9px;
+}
+.card-img img{
+    height:inherit;
+}
+.card-content{
+   padding:0 10px;
+}
+.card-content p{
+  font-size:19px;  
+}
+#sponsers{
+    height:191px;
+    max-width:1000px;
+    margin:27px auto;
+}
+.spImage{
+    height:60%;
+    margin:20px;
+}
+ #footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    height:60px;
+    font-size:20px;
+    font-family:'Akaya Kanadaka';
+    background-color: black;
+ }

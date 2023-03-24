@@ -1,0 +1,55 @@
+doctype html
+html
+  head
+    title Jayanth Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | HDA
+            li #[a(href='/') Home]  
+            li #[a(href='/') About]  
+            li #[a(href='/') Services]  
+            li #[a(href='/') Class info]  
+            li #[a(href='/') Contact Us]  
+    section#introsection 
+        div Welcome to jayanth dance academy 
+        div.small Live Learn Dance Repeat
+
+    section#sponsersection 
+        h3 Our sponsers  
+        div#sponsers 
+            img(src="/static/img/sponser1.png",alt="Sponser Image",class="spImage")
+            img(src="/static/img/sponser2.png",alt="Sponser Image",class="spImage")
+            img(src="/static/img/sponser3.png",alt="Sponser Image",class="spImage")
+            img(src="/static/img/sponser4.png",alt="Sponser Image",class="spImage")
+    section#missionsection
+        h2 Our Mission 
+        div.card 
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/bg1.png")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+             h3 Dance is life
+             div.card-box 
+                div.card-img 
+                    img(src="/static/img/bg2.jpg")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card 
+            h3 Expert teaching
+             div.card-box 
+                div.card-img 
+                    img(src="/static/img/bg3.jpg")
+                div.card-content 
+                    p This is the best dance academy of the universe
+    section#footer 
+        | Copyright © 2023 jhpnnydanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js
